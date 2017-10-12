@@ -11,17 +11,17 @@ public class JavaApplication2 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Cantidad de dinero que se desea desglosar");
         e=sc.nextInt();
-        if(e>100)
+        if(e>=100)
         {
             b100=e/100;
             e=e%100;
         }   
-        if(e>20)
+        if(e>=20)
         {
             b20=e/20;
             e=e%20;
         }
-        if(e>5)
+        if(e>=5)
         {
             b5=e/5;
             e=e%5;
