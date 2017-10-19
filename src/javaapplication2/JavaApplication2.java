@@ -1,6 +1,6 @@
 
 package javaapplication2;
-
+import javax.swing.JOptionPane;
 import java.util.Scanner;
 public class JavaApplication2 {
 
@@ -31,6 +31,10 @@ public class JavaApplication2 {
         System.out.println(b20+" billetes de 20€");
         System.out.println(b5+" billetes de 5€");
         System.out.println(e+" monedas de 1€");
+        //Thanks obama
+            System.out.println("You are a casul");
+        JOptionPane.showInputDialog("You are a casul");
+        
     }
     
 }
